@@ -5,23 +5,31 @@ body {
     background: #eee;
 }
 
-.header {
+.container-header {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: space-between;
     color: #eee;
     background-color:#1F2937;
     padding: 8px;
-    
-    
 }
+
+.left-logo {
+    flex-wrap: wrap;
+}
+
 .logo {
     font-size: 20px;
     font-weight: 900;
     margin-left: 300px;
 }
 
-.content {
+.right-links {
+    flex-wrap: wrap;
+    margin-right: 120px;
+}
+
+.container-content {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -29,6 +37,7 @@ body {
 }
 
 .content-leftside {
+    flex-wrap: wrap;
     margin-left: 160px;
     flex-direction: column;
 
@@ -64,13 +73,48 @@ body {
 }
 
 .content-rightside {
+    justify-content: center;
     background-color: grey;
     width: 500px;
+    margin-right: 250px;
 }
 
 .placeholder-image {
     color: #f9faf8;
-    
+}
+
+.title-info {
+    text-align: center;
+    margin: 42px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.info-border {
+    border-style: outset;
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border-color: #5391f5;
+}
+
+.info {
+    max-width: 160px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
 }
 
 a {
@@ -88,7 +132,7 @@ ul {
     list-style-type: none;
 }
 
-.header-right-links, .left-logo {
+.right-links, .left-logo {
     display: flex;
     align-items: center;
 }
