@@ -162,6 +162,15 @@ ul {
     list-style-type: none;
 }
 
+.container-sign-up-rightside {
+    height: 350px;
+
+}
+
+.sign-up-info {
+    
+}
+
 .right-links, .left-logo {
     display: flex;
     align-items: center;
@@ -169,6 +178,12 @@ ul {
 
 .content-leftside, .content-rightside {
     display: flex;
+    align-items: center;
+}
+
+.container-sign-up-rightside, .container-sign-up-leftside {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
