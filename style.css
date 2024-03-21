@@ -13,6 +13,7 @@ body {
     color: #eee;
     background-color:#1F2937;
     padding: 8px;
+    flex-wrap: wrap;
 }
 
 .left-logo {
@@ -32,6 +33,7 @@ body {
 
 .container-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #1F2937;
     padding: 8em;
@@ -95,6 +97,7 @@ body {
 
 .container-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 120px;
 }
@@ -127,7 +130,7 @@ body {
     height: 300px;
     width: auto;
     margin-top: 32px;
-
+    flex-wrap: wrap;
     
 }
 
@@ -162,14 +165,55 @@ ul {
     list-style-type: none;
 }
 
-.container-sign-up-rightside {
-    height: 350px;
-
+.container-sign-up {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    flex-wrap: wrap;
 }
 
-.sign-up-info {
-    
+.container-sign-up-leftside {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e2e2e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+strong {
+    font-size: large;
+}
+
+.btn-sign-up {
+    margin-left: 150px;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    border-color: #ffffff;
+    background-color: #3882f6;
+    color: #e2e2e2;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    flex-wrap: wrap;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #1F2937;
+    color: #e2e2e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .right-links, .left-logo {
     display: flex;
@@ -181,9 +225,4 @@ ul {
     align-items: center;
 }
 
-.container-sign-up-rightside, .container-sign-up-leftside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
